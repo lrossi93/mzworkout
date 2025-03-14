@@ -1,0 +1,89 @@
+/* src/styles.css */
+* {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.25px;
+}
+.title {
+  font-family: "Anton", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+.text-justify {
+  text-align: justify;
+}
+.bg-nav {
+  background-color: #212529;
+}
+.bg-black {
+  background-color: #161616;
+}
+.social {
+  color: #212529;
+}
+.clickable {
+  cursor: pointer;
+}
+.btn-lg {
+  background-color: #d40000;
+  border: none;
+}
+.btn-lg:hover {
+  background-color: #d42323;
+}
+.btn-lg:active {
+  background-color: #770000 !important;
+}
+.bg-main {
+  background:
+    linear-gradient(
+      to bottom right,
+      #d40000,
+      #770000);
+  color: #ffffff;
+}
+.bg-dark-grey {
+  background-color: rgb(31, 31, 31);
+}
+.caption {
+  color: #0a822e;
+}
+.img-service {
+  opacity: 1;
+  transition: ease-in-out 0.3s;
+}
+.img-service:hover {
+  opacity: 1;
+}
+.img-service {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  object-fit: cover;
+}
+.square {
+  aspect-ratio: 1/1;
+}
+.img-service::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.4);
+  transition: background 0.3s ease-in-out;
+}
+.img-service:hover::before {
+  background: rgba(0, 0, 0, 0.8);
+}
+a .service {
+  color: white;
+}
+
+/* angular:styles/global:styles */
+/*# sourceMappingURL=styles.css.map */
