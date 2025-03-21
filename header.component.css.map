@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/header/header.component.css"],
+  "sourcesContent": [".dropdown-item:active {\n    background-color: #e40520 !important;\n    color: white !important;\n}"],
+  "mappings": ";AAAA,CAAC,aAAa;AACV,oBAAkB;AAClB,SAAO;AACX;",
+  "names": []
+}
