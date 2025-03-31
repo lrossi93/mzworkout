@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["src/app/app.component.css"],
+  "sourcesContent": ["  /*LOADER*/\n  /* Stile per il caricatore */\n  .loader {\n    position: fixed;\n    top: 0;\n    left: 0;\n    width: 100vw;\n    height: 100vh;\n    background: linear-gradient(to bottom right, #212529, #0a0a0a);\n    z-index: 1050;\n    opacity: 1;\n    transition: opacity 0.5s ease;\n  }\n  \n  /* Logo pulsante */\n  .logo {\n    width: 250px;\n    animation: pulse 1.5s infinite;\n  }\n  \n  /* Effetto pulsante */\n  \n  \n  @keyframes pulse {\n    0% {\n      transform: scale(1);\n      opacity: 1;\n    }\n    50% {\n      transform: scale(1.1);\n      opacity: 1;\n    }\n    100% {\n      transform: scale(1);\n      opacity: 1;\n    }\n  }\n  \n  /* Nasconde il caricatore dopo il fade-out */\n  .loader.fade-out {\n    opacity: 0;\n    pointer-events: none;\n  }"],
+  "mappings": ";AAEE,CAAC;AACC,YAAU;AACV,OAAK;AACL,QAAM;AACN,SAAO;AACP,UAAQ;AACR;AAAA,IAAY;AAAA,MAAgB,GAAG,OAAO,KAA1B;AAAA,MAAiC,OAAjC;AAAA,MAA0C;AACtD,WAAS;AACT,WAAS;AACT,cAAY,QAAQ,KAAK;AAC3B;AAGA,CAAC;AACC,SAAO;AACP,aAAW,MAAM,KAAK;AACxB;AAKA,WANa;AAOX;AACE,eAAW,MAAM;AACjB,aAAS;AACX;AACA;AACE,eAAW,MAAM;AACjB,aAAS;AACX;AACA;AACE,eAAW,MAAM;AACjB,aAAS;AACX;AACF;AAGA,CArCC,MAqCM,CAAC;AACN,WAAS;AACT,kBAAgB;AAClB;",
+  "names": []
+}
