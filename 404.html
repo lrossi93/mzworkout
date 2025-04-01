@@ -1,12 +1,6 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta http-equiv="refresh" content="0; url=/mzworkout/index.html">
-    <script>
-      // Rimuove /mzworkout se già presente per evitare ripetizioni
-      let path = window.location.pathname.replace(/^\/mzworkout\//, '');
-      window.location.replace("/mzworkout/index.html?redirect=" + encodeURIComponent(path));
-    </script>
-  </head>
-  <body></body>
-</html>
+<script>
+    var path = window.location.pathname.replace('/mzworkout', '');
+    if (path !== "/" && !path.startsWith("/index.html")) {
+        window.location.replace("/miosito/#" + path);
+    }
+</script>
