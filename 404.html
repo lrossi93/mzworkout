@@ -3,7 +3,9 @@
   <head>
     <meta http-equiv="refresh" content="0; url=/mzworkout/index.html">
     <script>
-      window.location.replace("/mzworkout/" + window.location.pathname.substring(1));
+      // Rimuove /mzworkout se già presente per evitare ripetizioni
+      let path = window.location.pathname.replace(/^\/mzworkout\//, '');
+      window.location.replace("/mzworkout/index.html?redirect=" + encodeURIComponent(path));
     </script>
   </head>
   <body></body>
