@@ -1,6 +1,6 @@
 <script>
-    var path = window.location.pathname;
-    if (path !== "/") {
-        window.location.replace("/#/" + path.substring(1));
+    var path = window.location.pathname.replace('/mzworkout', '');
+    if (path !== "/" && !path.startsWith("/index.html")) {
+        window.location.replace("/miosito/#" + path);
     }
 </script>
