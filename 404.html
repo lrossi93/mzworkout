@@ -1,6 +1,10 @@
-<script>
-    var path = window.location.pathname.replace('/mzworkout', '');
-    if (path !== "/" && !path.startsWith("/index.html")) {
-        window.location.replace("/miosito/#" + path);
-    }
-</script>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="refresh" content="0; url=/mzworkout/index.html">
+    <script>
+      window.location.replace("/mzworkout/" + window.location.pathname.substring(1));
+    </script>
+  </head>
+  <body></body>
+</html>
