@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/whoami/whoami.component.css"],
-  "sourcesContent": [".img-equal-height {\n    width: 100%;  /* Occupa tutta la larghezza della colonna */\n    height: 100%; /* Occupa tutta l'altezza della colonna */\n    object-fit: cover; /* Mantiene il rapporto d'aspetto ritagliando se necessario */\n    border-radius: 8px; /* Arrotondamento opzionale */\n}"],
-  "mappings": ";AAAA,CAAC;AACG,SAAO;AACP,UAAQ;AACR,cAAY;AACZ,iBAAe;AACnB;",
-  "names": []
-}
