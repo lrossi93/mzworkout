@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/reviews/reviews.component.css"],
-  "sourcesContent": [".hover {\n    transition: all 0.3s ease-in-out;\n}\n\n.hover:hover {\n    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);\n}"],
-  "mappings": ";AAAA,CAAC;AACG,cAAY,IAAI,KAAK;AACzB;AAEA,CAJC,KAIK;AACF,cAAY,EAAE,KAAK,KAAK,KAAK,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE;AAC1C;",
-  "names": []
-}

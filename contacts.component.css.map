@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["src/app/contacts/contacts.component.css"],
-  "sourcesContent": ["/* Rimuove la sottolineatura dai link all'interno della card */\n.card a {\n    text-decoration: none !important;\n    color: inherit !important;\n}\n\n/* Assicura che anche quando il link \u00E8 attivo o hoverato non venga sottolineato */\n.card a:hover,\n.card a:focus,\n.card a:active {\n    text-decoration: none !important;\n    color: inherit !important;\n}\n\n/* Imposta la transizione nella regola base */\n.card {\n    transition: box-shadow 0.3s ease-in-out;\n}\n\n/* Effetto hover sulla card: aumenta l'ombreggiatura */\n.card:hover {\n    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.8) !important;\n}\n"],
-  "mappings": ";AACA,CAAC,KAAK;AACF,mBAAiB;AACjB,SAAO;AACX;AAGA,CANC,KAMK,CAAC;AACP,CAPC,KAOK,CAAC;AACP,CARC,KAQK,CAAC;AACH,mBAAiB;AACjB,SAAO;AACX;AAGA,CAdC;AAeG,cAAY,WAAW,KAAK;AAChC;AAGA,CAnBC,IAmBI;AACD,cAAY,IAAI,KAAK,KAAK,KAAK,CAAC,EAAE,CAAC,EAAE,CAAC,EAAE;AAC5C;",
-  "names": []
-}
